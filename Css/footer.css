@@ -1,0 +1,29 @@
+.footer__contenido{
+    border: solid 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .footer_elementos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2px 0 2px 0;
+  }
+  
+  .footer__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .footer_autor{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  

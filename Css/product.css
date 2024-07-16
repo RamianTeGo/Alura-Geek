@@ -1,0 +1,97 @@
+
+/*Agregar Productos*/
+
+.productos__agregar{
+    padding: 1rem 1rem;
+  }
+  
+.agregar__form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    gap: 1rem;
+  }
+
+
+
+input{
+    border-color: var(--input);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.agregar__botons{
+  display: flex;
+  justify-content: space-around;  
+} 
+
+.boton_enviar,.boton_limpiar{
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.boton_enviar{
+    background-color: var(--boton);
+    border-color: var(--boton);
+    color: var(--letras);
+    
+}
+
+.boton_limpiar{
+    color: var(--boton);
+    
+}
+
+
+
+/* Listar Productos */
+
+.productos_cajas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: scroll;
+    gap: 1rem;
+    padding: 1rem 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal);
+    border: solid 4px;
+    
+}
+
+.img__cajas{
+    border: solid;
+    margin: 2px;
+}
+
+.cajas__info{
+    padding: 0 2px 0 2px;
+}
+
+.caja__precio_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_eliminar{
+    cursor: pointer;
+}
+
+/* Diseño responsivo */
+
+@media (min-width: 498px){
+    .productos{
+        display: flex;
+    }
+
+    .productos__agregar{
+        order: 2;
+    }
+}

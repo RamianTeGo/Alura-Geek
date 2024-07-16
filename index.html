@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Greek</title>
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenido">
+            <div class="hearder__elementos">
+                <figure class="hearder__img">
+                    <img src="Img/logo.png" alt="logo">
+                </figure>
+                <h1 class="header_titulo">Alura Geek</h1>
+            </div>
+        </div>
+
+    </header>
+    <main class="contenedor">
+        <section class="productos">
+            <div class="productos__agregar">
+                <h2>AGREGAR PRODUCTOS</h2>
+                <div class="productos__form">
+                    <form class="agregar__form" name="form" data-form>
+                        <input data-name class="form__inputs" type="text" placeholder="nombre..">
+                        <input data-precio class="form__inputs" type="text" placeholder="precio..">
+                        <input data-image class="form__inputs" type="text" placeholder="imagen..">
+                        
+                        <div class="agregar__botons">
+                            <button class="boton_enviar" type="submit">Enviar</button>
+                            <button class="boton_limpiar" type="reset">limpiar</button>  
+                        </div>
+                        
+
+                    </form>
+                    
+              
+                </div>
+            </div>
+
+            <div class="productos__listar">
+                <h2>MIS PRODUCTOS</h2>
+                <div class="productos_cajas" data-product>
+                    <!-- <div class="img__cajas">
+                        <img src="Img/" alt="imagen producto">
+                    </div>
+                    <div class="cajas__info">
+                        <h3 class="caja__name"></h3>
+                        <div class="caja__precio_icon">
+                            <p class="caja__precio"></p>
+                            <button class="caja__icon">
+                                <img src="Img/icon_eliminar.png" alt="icono eliminar">
+                            </button>
+                        </div> -->
+                            
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <section class="footer__contenido">
+        <footer>
+            <div class="footer_elementos">
+                <div class="footer__titulo">
+                    <figure class="footer__img">
+                        <img src="Img/logo.png" alt="logo">
+                    </figure>
+                    <h1>Alura Geek</h1>
+                </div>
+                <div class="footer_autor">
+                    <p>Desarrollado por Ramiro Tejedor</p>
+                    <h4>2024</h4>
+                </div>
+                    
+                
+            </div>
+        </footer>
+    </section>
+    <script type="module" src="Database/js/Controles/main.js"></script>
+</body>
+
+</html>

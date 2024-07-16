@@ -1,0 +1,46 @@
+@import url(product.css);
+@import url(header.css);
+@import url(footer.css);
+
+:root{
+ 
+    --principal: #9b4242;
+    --input: #52239f;
+    --boton:#e67e7e;
+    --letras:#d8dca6;
+    
+ }
+
+body {
+    background:linear-gradient(180deg, #d8dca6 0%, #808621 48.44%, #d8dca6 100%);
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+h1,h3,h4,p{
+    color: var(--letras);
+    
+}
+
+.h1,h3,h4,p{
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.header,.footer__contenido{
+    background-color: var(--principal);
+}
